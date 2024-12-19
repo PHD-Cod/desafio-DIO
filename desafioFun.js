@@ -6,11 +6,10 @@ function result(victory, declive) {
     return saldo
     }
 
-let rank = result (82, 50)
+let rank = result(82, 50)
 
 console.log("Número de vitórias: " + victory)
 console.log("Número de derrotas: " + declive)
-console.log("Seu saldo nesta rankeada é de " + rank)
 
 let classificacao
 
@@ -37,4 +36,5 @@ switch (true){
     classificacao = "Imortal"
 }
 
-console.log("Sua classificação atual na rankeada é " + classificacao)
+console.log("O herói tem saldo de " + rank + ", e sua classificação atual na rankeada é " + classificacao + "!")
+
