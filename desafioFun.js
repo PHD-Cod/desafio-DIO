@@ -1,7 +1,40 @@
-let rank = soma (82, 50)
+let victory = 82
+let declive = 50
 
-function soma (victory, declive) {
+function result(victory, declive) {
     let saldo = victory - declive
     return saldo
-    console.log("Seu saldo nesta rankeada é de " + rank)
+    }
+
+let rank = result (82, 50)
+
+console.log("Número de vitórias: " + victory)
+console.log("Número de derrotas: " + declive)
+console.log("Seu saldo nesta rankeada é de " + rank)
+
+let classificacao
+
+switch (true){
+    case victory <= 10:
+    classificacao = "Ferro"
+    break
+    case victory <= 20:
+    classificacao = "Bronze"
+    break
+    case victory <= 50:
+    classificacao = "Prata"
+    break
+    case victory <= 80:
+    classificacao = "Ouro"
+    break
+    case victory <= 90:
+    classificacao = "Diamante"
+    break
+    case victory <= 100:
+    classificacao = "Lendário"
+    break
+    case victory >= 101:
+    classificacao = "Imortal"
 }
+
+console.log("Sua classificação atual na rankeada é " + classificacao)
