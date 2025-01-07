@@ -8,12 +8,11 @@ function torrar(pao) {
 
 //2
 
-function soma(numA, numB){
-    let somatorio = numA + numB
-    return somatorio
-}
-
 let resultado = soma (5, 10)
 
-console.log("sendo assim o valor de resultado é " + resultado)
+function soma(numA, numB) {
+    let somatorio = numA + numB
+    return somatorio
+    }
 
+    console.log ("sendo assim o valor de resultado é " + resultado)
